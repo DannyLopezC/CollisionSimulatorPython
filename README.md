@@ -1,105 +1,96 @@
-# 🧪 Simulador de Colisiones 2D con Python
+# 🧪 2D Collision Simulator with Python
 
-Este proyecto es un simulador interactivo que representa colisiones entre partículas en dos dimensiones usando física clásica. Está diseñado con fines educativos, para facilitar la comprensión de conceptos como momento, masa, velocidad y colisión elástica.
-
----
-
-## 🎯 Objetivo del Proyecto
-
-Crear una herramienta visual que permita:
-
-- Configurar partículas (posición, masa, velocidad y color).
-- Simular sus movimientos y colisiones.
-- Visualizar los resultados usando la biblioteca gráfica `pygame`.
+This project is an interactive simulator that represents collisions between particles in two dimensions using classical physics. It is designed for educational purposes, to facilitate the understanding of concepts such as momentum, mass, velocity, and elastic collisions.
 
 ---
 
-## 📌 Características
+## 🎯 Project Objective
 
-- Soporte para múltiples partículas.
-- Visualización del movimiento en tiempo real.
-- Cálculo de colisiones elásticas basado en masa y dirección.
-- Interfaz gráfica con `pygame_gui` para cambiar parámetros.
+Create a visual tool that allows:
 
----
-
-## 🖼️ Vista previa
-
-![Diagrama de flujo](https://github.com/DannyLopezC/Proyecto_PDC/blob/main/diagrams/mainDiagram.drawio.png)
+- Configuring particles (position, mass, velocity, and color).
+- Simulating their movements and collisions.
+- Visualizing the results using the `pygame` graphics library.
 
 ---
 
-## 🔧 Requisitos
+## 📌 Features
 
-Este proyecto requiere Python 3.8 o superior. Las dependencias necesarias son:
+- Support for multiple particles.
+- Real-time motion visualization.
+- Elastic collision calculations based on mass and direction.
+- Graphical interface with `pygame_gui` to change parameters.
 
-```bash
+---
+
+## 🖼️ Preview
+
+Flow Diagram:
+https://github.com/DannyLopezC/Proyecto_PDC/blob/main/diagrams/mainDiagram.drawio.png
+
+---
+
+## 🔧 Requirements
+
+This project requires Python 3.8 or higher. The required dependencies are:
+
 pip install pygame-ce pygame_gui numpy
-```
 
-🔴 Si se tiene la libreria de pygame instalada deberá desinstalar pygame y pygame-ce para despues volver a instalar pygame-ce y evitar conflictos.
+If the pygame library is already installed, you must uninstall pygame and pygame-ce and then reinstall pygame-ce to avoid conflicts.
 
-```bash
 pip uninstall pygame-ce pygame
-```
 
-```bash
 pip install pygame-ce
-```
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## ▶️ How to run the project
 
-1. Clona este repositorio:
+1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/DannyLopezC/Proyecto_PDC.git
-   cd Proyecto_PDC
-   ```
+git clone https://github.com/DannyLopezC/Proyecto_PDC.git
+cd Proyecto_PDC
 
-2. Ejecuta el archivo principal:
+2. Run the main file:
 
-   ```bash
-   python main.py
-   ```
+python main.py
 
-   Esto abrirá la ventana del simulador con las partículas en movimiento.
+This will open the simulator window with the particles in motion.
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
-```
 Proyecto_PDC/
-├── main.py               # Script principal
-├── simulation.py         # Lógica física de colisiones y movimiento
-├── visualization.py      # Dibujado de partículas en pantalla
-├── interface_gui.py      # Interfaz con pygame_gui
-├── interface.py          # Parametros por consola, obsoleto actualmente
-├── utils.py              # Constantes y funciones auxiliares
-└── README.md             # Este archivo
-```
+├── main.py # Main script
+├── simulation.py # Collision and motion physics logic
+├── visualization.py # Rendering particles on screen
+├── interface_gui.py # Interface using pygame_gui
+├── interface.py # Console parameters, currently obsolete
+├── utils.py # Constants and helper functions
+└── README.md # This file
 
 ---
 
-## 🧠 Conceptos utilizados
+## 🧠 Concepts Used
 
-- Cinemática 2D
-- Conservación de momento lineal
-- Colisiones elásticas
-- Vectores con `numpy`
-
----
-
-## 📸 Ejemplo visual
-
-![Simulación](https://github.com/DannyLopezC/Proyecto_PDC/blob/main/example.gif)
+- 2D kinematics
+- Conservation of linear momentum
+- Elastic collisions
+- Vectors with `numpy`
 
 ---
 
-## 📚 Créditos
+## 📸 Visual Example
 
-Proyecto desarrollado como alternativa de programación final para la asignatura **Programación de Computadores** en la Universidad Nacional de Colombia.
+Simulation:
+https://github.com/DannyLopezC/Proyecto_PDC/blob/main/example.gif
 
-Autor: [DannyLopezC](https://github.com/DannyLopezC)
+---
+
+## 📚 Credits
+
+Project developed as a final programming alternative for the course **Computer Programming** at the National University of Colombia.
+
+Author:
+https://github.com/DannyLopezC
