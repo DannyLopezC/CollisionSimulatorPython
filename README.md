@@ -25,8 +25,7 @@ Create a visual tool that allows:
 
 ## 🖼️ Preview
 
-Flow Diagram:
-https://github.com/DannyLopezC/Proyecto_PDC/blob/main/diagrams/mainDiagram.drawio.png
+![Flow Diagram](https://github.com/DannyLopezC/Proyecto_PDC/blob/main/diagrams/mainDiagram.drawio.png)
 
 ---
 
@@ -83,8 +82,7 @@ Proyecto_PDC/
 
 ## 📸 Visual Example
 
-Simulation:
-https://github.com/DannyLopezC/Proyecto_PDC/blob/main/example.gif
+![Simulation](https://github.com/DannyLopezC/Proyecto_PDC/blob/main/example.gif)
 
 ---
 
@@ -92,5 +90,4 @@ https://github.com/DannyLopezC/Proyecto_PDC/blob/main/example.gif
 
 Project developed as a final programming alternative for the course **Computer Programming** at the National University of Colombia.
 
-Author:
-https://github.com/DannyLopezC
+Author: [DannyLopezC](https://github.com/DannyLopezC)
