@@ -60,14 +60,16 @@ This will open the simulator window with the particles in motion.
 
 ## 📁 Project Structure
 
+```
 Proyecto_PDC/
-├── main.py # Main script
-├── simulation.py # Collision and motion physics logic
-├── visualization.py # Rendering particles on screen
-├── interface_gui.py # Interface using pygame_gui
-├── interface.py # Console parameters, currently obsolete
-├── utils.py # Constants and helper functions
-└── README.md # This file
+├── main.py               # Script principal
+├── simulation.py         # Lógica física de colisiones y movimiento
+├── visualization.py      # Dibujado de partículas en pantalla
+├── interface_gui.py      # Interfaz con pygame_gui
+├── interface.py          # Parametros por consola, obsoleto actualmente
+├── utils.py              # Constantes y funciones auxiliares
+└── README.md             # Este archivo
+```
 
 ---
 
